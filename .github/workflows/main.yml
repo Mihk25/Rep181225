@@ -2,9 +2,9 @@ name: Kutu
 on: workflow_dispatch
 
 jobs:
-  Esimene
+  Esimene:
     runs-on: windows-latest
-
-  steps:
-    -name: Fifi
-     run echo "Sa oled loll" 
+    
+    steps:
+      - name: Fifi
+        run: echo "Sa oled loll" 
