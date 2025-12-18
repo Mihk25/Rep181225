@@ -1,0 +1,10 @@
+name: Kutu154
+on: workflow_dispatch
+
+jobs:
+  Esimene:
+    runs-on: windows-latest
+    
+    steps:
+      - name: Fifi
+        run: echo "Sa oled loll" 
